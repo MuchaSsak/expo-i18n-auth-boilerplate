@@ -1,0 +1,333 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-09-20 16:38+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pseudo\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/components/ui/theme-switcher.tsx:38
+msgid "Select theme"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/ui/language-switcher.tsx:45
+msgid "Select language"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/app/(protected)/(tabs)/_layout.tsx:26
+msgid "Home"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:236
+msgid "<0>Already have an account? </0><1><2>Log in</2></1>"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:40
+msgid "<0>Button from</0><1>React Native Reusables!</1>"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:163
+msgid "<0>Don't have an account? </0><1><2>Register now</2></1>"
+msgstr ""
+
+#: src/app/(unprotected)/confirm-email/[email].tsx:19
+#: src/app/(unprotected)/login/index.tsx:19
+#: src/app/(unprotected)/register/index.tsx:19
+#: src/app/(unprotected)/reset-password-sent/[email].tsx:14
+#: src/app/(unprotected)/reset-password/index.tsx:14
+#: src/app/(unprotected)/update-password/index.tsx:14
+msgid "Back to / page"
+msgstr ""
+
+#: src/components/app/confirm-email/ConfirmEmailCard.tsx:57
+#: src/components/app/reset-password-sent/ResetPasswordSentCard.tsx:50
+msgid "Check inbox"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:192
+#: src/components/app/update-password/UpdatePasswordForm.tsx:106
+msgid "Confirm password"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:44
+msgid "Confirm password is required"
+msgstr ""
+
+#: src/components/app/confirm-email/ConfirmEmailCard.tsx:42
+msgid "Confirm your email"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:156
+#: src/components/app/register/RegisterForm.tsx:229
+msgid "Continue"
+msgstr ""
+
+#: src/hooks/auth/useSignUpViaPassword.ts:19
+msgid "Couldn't create the account!"
+msgstr ""
+
+#: src/hooks/auth/useSignOut.ts:18
+msgid "Couldn't log out!"
+msgstr ""
+
+#: src/hooks/auth/useResendEmail.ts:17
+msgid "Couldn't resend the mail!"
+msgstr ""
+
+#: src/hooks/auth/useResetPassword.ts:17
+msgid "Couldn't reset the password!"
+msgstr ""
+
+#: src/hooks/auth/useSignInViaGoogle.ts:18
+#: src/hooks/auth/useSignInWithPassword.ts:21
+msgid "Couldn't sign in!"
+msgstr ""
+
+#: src/hooks/auth/useUpdatePassword.ts:25
+msgid "Couldn't update the password!"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:80
+msgid "Create your account"
+msgstr ""
+
+#: src/components/ui/theme-switcher.tsx:16
+msgid "Dark"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:72
+#: src/components/app/register/RegisterForm.tsx:125
+#: src/components/app/reset-password/ResetPasswordForm.tsx:63
+msgid "Email"
+msgstr ""
+
+#: src/components/ui/language-switcher.tsx:17
+msgid "English"
+msgstr ""
+
+#: src/components/app/update-password/UpdatePasswordForm.tsx:66
+msgid "Enter a new password in order to change it"
+msgstr ""
+
+#: src/components/app/reset-password/ResetPasswordForm.tsx:55
+msgid "Enter your email to reset your password"
+msgstr ""
+
+#: src/components/app/reset-password/ResetPasswordForm.tsx:52
+msgid "Forgot password?"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:118
+msgid "Forgot your password?"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:78
+msgid "Go to the /confirm-email/john.doe@example.com page"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:58
+msgid "Go to the /login page"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:63
+msgid "Go to the /register page"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:68
+msgid "Go to the /reset-password page"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:73
+msgid "Go to the /update-password page"
+msgstr ""
+
+#: src/services/auth/signInViaGoogle.ts:40
+msgid "Google Play Services are currently not available"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:104
+msgid "John"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:83
+#: src/components/app/register/RegisterForm.tsx:137
+#: src/components/app/reset-password/ResetPasswordForm.tsx:74
+msgid "john.doe@example.com"
+msgstr ""
+
+#: src/components/ui/theme-switcher.tsx:17
+msgid "Light"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:59
+msgid "Log in to your app"
+msgstr ""
+
+#: src/components/ui/social-connections copy.tsx:15
+#: src/components/ui/social-connections.tsx:31
+msgid "Log in via Google"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:90
+msgid "Log out"
+msgstr ""
+
+#: src/hooks/auth/useSignInViaGoogle.ts:25
+#: src/hooks/auth/useSignInWithPassword.ts:28
+msgid "Logged in successfully!"
+msgstr ""
+
+#: src/hooks/auth/useSignOut.ts:25
+msgid "Logged out successfully!"
+msgstr ""
+
+#: src/services/auth/signInViaGoogle.ts:36
+msgid "Logging in was cancelled"
+msgstr ""
+
+#: src/services/auth/signInViaGoogle.ts:38
+msgid "Logging in was interrupted"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:93
+msgid "Name"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:6
+msgid "Name is required"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:14
+msgid "Name may only contain letters"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:8
+msgid "Name must be at least 5 characters long"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:11
+msgid "Name must be at max 50 characters long"
+msgstr ""
+
+#: src/services/auth/signInViaGoogle.ts:31
+msgid "No user ID token present"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:184
+#: src/components/app/register/RegisterForm.tsx:257
+msgid "or"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:106
+#: src/components/app/register/RegisterForm.tsx:159
+#: src/components/app/update-password/UpdatePasswordForm.tsx:74
+msgid "Password"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:24
+msgid "Password is required"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:26
+msgid "Password must be at least 12 characters long"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:28
+msgid "Password must be at max 64 characters long"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:33
+msgid "Password must contain at least 1 lower case letter"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:36
+msgid "Password must contain at least 1 number"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:39
+msgid "Password must contain at least 1 special character"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:30
+msgid "Password must contain at least 1 upper case letter"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:44
+#: src/components/app/update-password/UpdatePasswordForm.tsx:33
+msgid "Passwords must match"
+msgstr ""
+
+#: src/lib/zodSchemas.ts:19
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: src/components/ui/language-switcher.tsx:18
+msgid "Polish"
+msgstr ""
+
+#: src/components/ui/language-switcher.tsx:19
+msgid "Pseudo"
+msgstr ""
+
+#: src/components/app/confirm-email/ConfirmEmailCard.tsx:69
+#: src/components/app/reset-password-sent/ResetPasswordSentCard.tsx:62
+msgid "Resend email"
+msgstr ""
+
+#: src/components/app/reset-password/ResetPasswordForm.tsx:102
+msgid "Reset your password"
+msgstr ""
+
+#: src/hooks/auth/useResetPassword.ts:24
+msgid "Sent a password reset request!"
+msgstr ""
+
+#: src/services/auth/signInViaGoogle.ts:43
+msgid "Something went wrong whilst trying to log in via Google"
+msgstr ""
+
+#: src/hooks/auth/useResendEmail.ts:24
+msgid "Successfully resent the mail!"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:33
+msgid "This boilerplate includes a simple authentication & authorization with automatic redirects via Supabase and Tanstack Query."
+msgstr ""
+
+#: src/components/app/update-password/UpdatePasswordForm.tsx:143
+msgid "Update password"
+msgstr ""
+
+#: src/components/app/update-password/UpdatePasswordForm.tsx:63
+msgid "Update your password"
+msgstr ""
+
+#: src/components/app/reset-password-sent/ResetPasswordSentCard.tsx:35
+msgid "We've sent you a password reset link!"
+msgstr ""
+
+#: src/components/app/login/LoginForm.tsx:62
+msgid "Welcome back! Please log in to continue"
+msgstr ""
+
+#: src/app/(protected)/(tabs)/index.tsx:30
+msgid "Welcome to Expo!"
+msgstr ""
+
+#: src/components/app/register/RegisterForm.tsx:83
+msgid "Welcome! Please fill in the details to get started."
+msgstr ""
+
+#: src/hooks/auth/useUpdatePassword.ts:32
+msgid "Your password has been updated!"
+msgstr ""

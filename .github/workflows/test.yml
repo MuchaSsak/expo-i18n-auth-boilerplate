@@ -1,0 +1,36 @@
+name: Cypress and Jest Tests
+
+on:
+  push:
+    branches-ignore:
+      - "renovate/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: cypress/browsers:22.16.0
+      options: --user 1001
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cypress install
+        uses: cypress-io/github-action@v6
+        with:
+          runTests: false
+
+      - name: Run web server and test with Cypress
+        run: nohup yarn web > server.log 2>&1 & yarn cypress info --browser chrome --headless
+
+      - name: Print node version
+        run: node --version
+
+      - name: Print OS information
+        run: node -p 'os.cpus()'
+
+      - name: EsLint fix all files
+        run: yarn fix
+
+      - name: Test with Jest
+        run: yarn test

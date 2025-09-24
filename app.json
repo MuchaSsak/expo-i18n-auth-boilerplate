@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "Expo i18n Auth Boilerplate",
+    "slug": "expo-i18n-auth-boilerplate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "description": "Robust Expo boilerplate with auth, unit/E2E testing and i18n 📱",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "com.anonymous.expo.i18n.auth.boilerplate",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.expo.i18n.auth.boilerplate",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./src/assets/images/android-icon-foreground.png",
+        "backgroundImage": "./src/assets/images/android-icon-background.png",
+        "monochromeImage": "./src/assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.expo.i18n.auth.boilerplate",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./src/assets/images/favicon.png",
+      "shortName": "Expo i18n Boilerplate",
+      "description": "Robust Expo boilerplate with auth, unit-testing and i18n 📱",
+      "themeColor": "#E6F4FE",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "owner": "muchassak"
+  }
+}
